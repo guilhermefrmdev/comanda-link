@@ -1,0 +1,29 @@
+[project]
+name = "comanda-link"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Guilherme Felipe", email = "guilherme.mariano@aluno.ufca.edu.br" },
+    { name = "Wanderson Francisco", email = "wanderson.lobo@aluno.ufca.edu.br" },
+    { name = "Davi Henrique", email = "davi.henrique@aluno.ufca.edu.br" },
+    { name = "Stênio Vinícius", email = "stenio.vinicius@aluno.ufca.edu.br" },
+    { name = "Robson Arthur", email = "robson.arthur@aluno.ufca.edu.br" },
+    { name = "Caio De Oliveira", email = "caio.sa@aluno.ufca.edu.br" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.165.0",
+]
+
+[project.scripts]
+comanda-link = "comanda_link:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
