@@ -1,4 +1,12 @@
+---
+name: Default Issue
+about: Issue padrão do projeto
+title: "[<tipo>]: "
+assignees: ''
+---
+
 ### Tipo de Alteração
+
 - [ ] Correção de Bug
 - [ ] Documentação
 - [ ] Funcionalidade ou Recurso
@@ -6,6 +14,6 @@
 - [ ] Refatoração
 
 ### O vai ser feito
-- Item 1
-- Item 2
-- Item 3
+- [ ] Item 1
+- [ ] Item 2
+- [ ] Item 3
