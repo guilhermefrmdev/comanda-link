@@ -1,7 +1,7 @@
 ---
 name: Default Issue
 about: Issue padrão do projeto
-title: "[<tipo>]: "
+title: ""
 assignees: ''
 ---
 
