@@ -26,4 +26,13 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+    "taskipy>=1.14.1",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = "./tests"
+
+[tool.taskipy.tasks]
+test = "pytest -s -x --cov=comanda_link -vv"
+post_test = "coverage html"
